@@ -28,6 +28,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "entry.png")
 
 W, H = 1024, 1024
+# Warm newsprint background; every panel, strip and the map sit on it.
 PAPER = (247, 242, 230)
 INK = (22, 20, 18)
 NAVY = (18, 38, 66)
